@@ -218,6 +218,7 @@ static bool do_lzma_code(lzma_stream *strm,
  * @param in_size 
  * @param out_buff 
  * @param out_size 
+ * @param compress_ratio 压缩比例, 该值为乘以 100 后的值
  * @return int 
  */
 int _compress(const unsigned char *in_buff, const int in_size,
@@ -306,6 +307,7 @@ int _decompress(const unsigned char *in_buff, const int in_size,
  * @param slen 
  * @param dst 
  * @param dlen 
+ * @param compress_ratio 压缩比例, 该值为乘以 100 后的值
  * @return int 
  */
 int compress_lzma(void *src, int slen, void *dst, int *dlen, int compress_ratio)
