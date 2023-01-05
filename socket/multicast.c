@@ -52,7 +52,7 @@ int mc_sock_sender_init(int *mc_sock, char *ifname,
     int loop = 0;
 
     fd = socket(AF_INET, SOCK_DGRAM, 0);  // 构建UDP通信套接字
-    if(fd == -1)
+    if (-1 == fd)
     {
         log_warn("socket error: %s", strerror(errno));
         return -1;
