@@ -5,7 +5,7 @@
  * @Date: 2022-12-16 15:36:53
  * @LastEditTime: 2023-01-04 10:45:38
  * @LastEditors: Huang Leilei
- * @FilePath: \add\src\log.c
+ * @FilePath: \catalyst\log.c
  */
 
 #include <stdio.h>
