@@ -5,7 +5,7 @@
  * @Date: 2023-01-04 11:08:10
  * @LastEditTime: 2023-01-05 14:00:56
  * @LastEditors: Huang Leilei
- * @FilePath: \add\src\comp\xz.c
+ * @FilePath: \catalyst\src\comp\xz.c
  */
 
 // https://blog.csdn.net/jkhere/article/details/16980059
